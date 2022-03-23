@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="mainContainer">
+       <div class="leftBg">
+          
+          <div class="logoContainer">
+              <img src="./img/creativelogo.jpg" alt="odin logo" class="logo">
+              <span><p class="logoText">Sign-up Page</p></span> </div>
+          </div> 
+      
+      <div class="rightBg">
+         <div class="upperRight">
+             <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+
+                Sign up now to get started.
+                
+                You know you want to.</p>
+         </div>
+          <div class="middleRight">
+             <h2>Let's do it !!</h2>
+             <div class="formContainer">
+              <form action="" id="my-form">
+                 
+                   <div class="info"> <label for="firstName">FIRST NAME</label>
+                    <input type="text" class="firstName" required ></div>
+
+                    <div class="info" > <label for="lastName">LAST NAME</label>
+                    <input type="text" class="lastName" required ></div>
+
+                    <div class="info" > 
+                        <label for="email">EMAIL</label>
+                    <input type="email" class="email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"  title="username@domain.com" required>
+                  </div   >
+                  <div class="info" >
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" class="phone"  required>
+                  </div>
+                  <div  class="info">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" class="password" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                  </div>
+                  <div class="info" >
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" class="confirmPassword" title="Should match your password" required>
+                  </div>
+                
+              </form>
+            </div>
+            </div>
+          <div class="bottomRight">
+            <div class="btnContainer"><button type="submit" class="accountBtn" form="my-form"> Create Account</button></div>
+            <p>Already have an account?<span><a href="#">Log in</a></span></p>
+          </div>
+      </div>
+   </div>
+
+    
+</body>
+</html>
