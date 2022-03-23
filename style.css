@@ -116,6 +116,11 @@ label{
     padding:10px 30px 20px 30px;
 }
 
+.message{
+    font-size:12px ;
+    color:red;
+}
+
 .accountBtn{
     background-color: rgb(77, 143, 77);
     text-align: center;

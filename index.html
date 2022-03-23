@@ -50,14 +50,15 @@
                   </div>
                   <div class="info" >
                     <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password" class="confirmPassword" title="Should match your password" required>
+                    <input type="password" class="confirmPassword" title="Should match your password"  required>
                   </div>
                 
               </form>
             </div>
             </div>
           <div class="bottomRight">
-            <div class="btnContainer"><button type="submit" class="accountBtn" form="my-form"> Create Account</button></div>
+              <p class="message"></p>
+            <div class="btnContainer"><button type="submit" class="accountBtn" form="my-form"onclick='return checkPassword();' > Create Account</button></div>
             <p>Already have an account?<span><a href="#">Log in</a></span></p>
           </div>
       </div>
